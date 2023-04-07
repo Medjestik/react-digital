@@ -1,0 +1,96 @@
+
+.page {
+  --title-color: #262626;
+  --subtitle-color: #343434;
+  --white-color: #ffffff;
+  --background-main-color: #E5E5E5;
+  --background-secondary-color: #fafafa;
+  --background-third-color: #F3F3F3;
+  --main-color: #005CC9;
+  --secondary-color: #E00F73;
+  --decoration-color: #0D64CD;
+  --border-card-color: #DDDDDD;
+  --border-radius: 20px;
+  color: var(--subtitle-color);
+  background-color: var(--background-main-color);
+  box-sizing: border-box;
+  font-family: 'ProximaNova', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+.font__weight_bold {
+  font-weight: 600;
+}
+.font__family_macherie {
+  font-family: 'Macherie';
+}
+.font_color_secondary {
+  color: var(--secondary-color);
+}
+.logo {
+  margin: 0px;
+  width: 205px;
+  height: 40px;
+  background-image: url('../../images/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.decoration__lines {
+  padding: 0px;
+  list-style-type: none;
+  position: absolute;
+  bottom: -200px;
+  right: -600px;
+  transform: rotate(45deg);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.decoration__lines_type_small {
+  position: absolute;
+  bottom: -200px;
+  right: -400px;
+}
+.decoration__line {
+  margin: 0px 0px 160px 0px;
+  width: 1200px;
+  height: 100px;
+  background-color: var(--decoration-color);
+}
+.decoration__line_number_one {
+  margin: 0px 0px 160px 0px;
+}
+.decoration__line_number_two {
+  margin: 0px 0px 160px 240px;
+}
+.decoration__line_number_three {
+  margin: 0px 0px 160px 480px;
+}
+@media all and (max-width: 1400px) {
+  .container {
+    padding: 0px 32px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    padding: 0px 16px;
+  }
+}

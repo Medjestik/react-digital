@@ -1,0 +1,105 @@
+.programs {
+  width: 100%;
+  margin: 160px 0px;
+}
+.programs__title {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: left;
+  color: var(--title-color);
+  position: relative;
+  z-index: 5;
+}
+.programs__list {
+  margin: 40px 0px 0px 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  gap: 40px;
+}
+.programs__item {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius);
+}
+.programs__item-img-container {
+  margin: 0px;
+  height: 180px;
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  position: relative;
+}
+.programs__item-img {
+  margin: 0px;
+  height: 180px;
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  object-fit: cover;
+  object-position: center;
+  user-select: none;
+  pointer-events: none;
+}
+.programs__item-img-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 180px;
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  background: linear-gradient(101.45deg, rgba(0, 92, 201, 0.5) 0%, rgba(0, 92, 201, 0) 100%);
+}
+.programs__item-info {
+  padding: 40px;
+  min-height: 360px;
+  box-sizing: border-box;
+  display: flex; 
+  flex-direction: column;
+}
+.programs__item-caption {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--title-color);
+}
+.programs__item-title {
+  margin: 12px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--title-color);
+}
+.programs__item-button {
+  width: 100%;
+  margin: auto 0px 0px 0px;
+  padding: 8px 24px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+.programs__item-button_type_active:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 12px -8px var(--secondary-color);
+}
+.programs__item-button_type_block {
+  color: var(--white-color);
+  background-color: var(--border-card-color);
+}
