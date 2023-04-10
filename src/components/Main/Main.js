@@ -1,20 +1,12 @@
 import React from 'react';
 import './Main.css';
 import Header from '../Header/Header.js';
+import Marquee from 'react-fast-marquee';
 
 function Main() {
   return (
     <div className='main' id='main'>
       
-      <ul className='decoration__lines'>
-        <li className='decoration__line decoration__line_number_one'>
-        </li>
-        <li className='decoration__line decoration__line_number_two'>
-        </li>
-        <li className='decoration__line decoration__line_number_three'>
-        </li>
-      </ul>
-
       <div className='container'>
 
         <Header />
@@ -24,7 +16,23 @@ function Main() {
 
       </div>
 
-      <div className='main__img'></div>
+      <div className='main__overlay'></div>
+
+      <div className='main__marquees'>
+
+        <Marquee gradient={false} speed={480} >
+          <div className='main__marquee'></div>
+        </Marquee>
+
+        <Marquee gradient={false} speed={720} >
+          <div className='main__marquee'></div>
+        </Marquee>
+
+        <Marquee gradient={false} speed={600} >
+          <div className='main__marquee'></div>
+        </Marquee>
+
+      </div>
 
     </div>
   );

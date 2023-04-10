@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: local('MADE Evolve Sans EVO Bold'), local('MADE-Evolve-Sans-EVO-Bold'),
+        url('MADEEvolveSansEVO-Bold.woff2') format('woff2'),
+        url('MADEEvolveSansEVO-Bold.woff') format('woff'),
+        url('MADEEvolveSansEVO-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

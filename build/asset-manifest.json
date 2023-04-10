@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a209b18.css",
-    "main.js": "/static/js/main.3c696198.js",
+    "main.css": "/static/css/main.1740bc63.css",
+    "main.js": "/static/js/main.cce0f0ee.js",
     "static/js/787.fbbd2da9.chunk.js": "/static/js/787.fbbd2da9.chunk.js",
+    "static/media/background.svg": "/static/media/background.ce37917fe5930203dd3e.svg",
     "static/media/logo.svg": "/static/media/logo.74856ed03ad883e2a270.svg",
     "static/media/ProximaNova-Light.eot": "/static/media/ProximaNova-Light.dc970b778a98f9a75423.eot",
     "static/media/ProximaNova-Light.ttf": "/static/media/ProximaNova-Light.f70705f204f9b7f11d76.ttf",
@@ -16,21 +17,26 @@
     "static/media/ProximaNova-Extrabld.ttf": "/static/media/ProximaNova-Extrabld.026a945d32b05c6c8710.ttf",
     "static/media/ProximaNova-Black.eot": "/static/media/ProximaNova-Black.9a114cea74aac9cc06cc.eot",
     "static/media/ProximaNova-Black.ttf": "/static/media/ProximaNova-Black.5335144c30bdc79a2d6d.ttf",
+    "static/media/MADEEvolveSansEVO-Bold.ttf": "/static/media/MADEEvolveSansEVO-Bold.bcbf3b4445cf4eb23148.ttf",
     "static/media/ProximaNova-Light.woff": "/static/media/ProximaNova-Light.6f5ad2ca80abea2876d4.woff",
     "static/media/ProximaNova-Regular.woff": "/static/media/ProximaNova-Regular.99528640efded3e12591.woff",
     "static/media/ProximaNova-Bold.woff": "/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
     "static/media/ProximaNova-Semibold.woff": "/static/media/ProximaNova-Semibold.a71877a1eef65838ed4c.woff",
     "static/media/ProximaNova-Extrabld.woff": "/static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
     "static/media/ProximaNova-Black.woff": "/static/media/ProximaNova-Black.131eab64b8a971a4fc73.woff",
-    "static/media/build.png": "/static/media/build.49e9e12678c95eb1aa02.png",
+    "static/media/crystal.ttf": "/static/media/crystal.9e9018a489daa1302414.ttf",
+    "static/media/MADEEvolveSansEVO-Bold.woff": "/static/media/MADEEvolveSansEVO-Bold.5256bea49f895145a056.woff",
     "static/media/iimo.png": "/static/media/iimo.e1feafb5bf1b93e46d0d.png",
     "static/media/oryp.png": "/static/media/oryp.e9d8a41bd0c113688755.png",
     "static/media/isi.png": "/static/media/isi.341de79d8e49003b4638.png",
+    "static/media/MADEEvolveSansEVO-Bold.woff2": "/static/media/MADEEvolveSansEVO-Bold.488f5d32f30b5715d9be.woff2",
     "static/media/cr.png": "/static/media/cr.218cf1f258de85fb2e08.png",
     "static/media/Macherie-SemiBold.woff": "/static/media/Macherie-SemiBold.ae9a1a91271be1bf28a6.woff",
     "static/media/jr.png": "/static/media/jr.55da3a0535f2df6a7461.png",
     "static/media/rppb.png": "/static/media/rppb.73bb0e24427d7c836337.png",
     "static/media/Macherie-SemiBold.woff2": "/static/media/Macherie-SemiBold.767849d08750f1c8ee82.woff2",
+    "static/media/crystal.woff": "/static/media/crystal.7f29fe195dc3350fb07f.woff",
+    "static/media/crystal.woff2": "/static/media/crystal.2ae5bd2056f2646ccdf7.woff2",
     "static/media/clock.svg": "/static/media/clock.9021986ff836233775e96ba367005d1c.svg",
     "static/media/education.svg": "/static/media/education.fed86d0ad2af445ff52a6db95004913c.svg",
     "static/media/team.svg": "/static/media/team.e21ba4f5b2b53dd15bf4a4a408920384.svg",
@@ -38,12 +44,12 @@
     "static/media/click.svg": "/static/media/click.0436c1db9b5e800633df1efebe449ba4.svg",
     "index.html": "/index.html",
     "static/media/footer-arrow.svg": "/static/media/footer-arrow.9e5bf68416b1376934f2.svg",
-    "main.7a209b18.css.map": "/static/css/main.7a209b18.css.map",
-    "main.3c696198.js.map": "/static/js/main.3c696198.js.map",
+    "main.1740bc63.css.map": "/static/css/main.1740bc63.css.map",
+    "main.cce0f0ee.js.map": "/static/js/main.cce0f0ee.js.map",
     "787.fbbd2da9.chunk.js.map": "/static/js/787.fbbd2da9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a209b18.css",
-    "static/js/main.3c696198.js"
+    "static/css/main.1740bc63.css",
+    "static/js/main.cce0f0ee.js"
   ]
 }
