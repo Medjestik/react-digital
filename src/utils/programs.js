@@ -26,7 +26,7 @@ export const programs = [
     type: 'ДПО',
     form: 'Очно-заочная форма',
     image: rppb,
-    link: 'https://youtu.be/XgU__N4gAJs',
+    link: 'https://www.youtube.com/embed/XgU__N4gAJs',
   },
   {
     title: 'Основы разработки и\u00a0управления IT-проектами',

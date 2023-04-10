@@ -12,7 +12,12 @@ function Main() {
         <Header />
 
         <h1 className='main__title font__family_macherie font_color_secondary'>Цифровые кафедры</h1>
+
         <p className='main__subtitle'>Проект, направленный на&nbsp;создание возможностей для&nbsp;<span className='font__weight_bold'>повышения квалификации и&nbsp;получения новой профессии</span> в&nbsp;сфере информационных технологий для&nbsp;студентов Университета РУТ (МИИТ)</p>
+
+        <div className='main__link-container'>
+          <a className='main__link' target='_blank' rel='noreferrer' href='https://www.youtube.com/embed/6YzBVZEgj7g'>Марафон цифровых кафедр РУТ (МИИТ)</a>
+        </div>
 
       </div>
 
