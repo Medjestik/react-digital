@@ -26,12 +26,14 @@
   z-index: 5;
 }
 .description__text {
+  position: relative;
   margin: 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: var(--white-color);
+  z-index: 5;
 }
 .description__text_width_small {
   max-width: 365px;
@@ -43,4 +45,21 @@
   height: 48px;
   background-color: var(--white-color);
   flex-shrink: 0;
+}
+
+@media all and (max-width: 768px) {
+  .description__title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .description__text {
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    z-index: 5;
+  }
 }

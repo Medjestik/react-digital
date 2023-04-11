@@ -19,7 +19,7 @@ function Header() {
         </ul>
       </nav>
 
-      <button className='header__button' type='button'>Записаться на программу</button>
+      <a className='header__button' target='_blank' rel='noreferrer' href='https://edu.emiit.ru/'>Учебный портал</a>
 
     </header>
   );

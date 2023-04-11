@@ -11,17 +11,17 @@ function Statistics() {
           <li className='statistics__item'>
             <span className='statistics__caption'>программ</span>
             <CountUp className='statistics__title font__family_crystal' start={0} end={6} separator=' ' />
-            <p className='statistics__subtitle'><span className='font__weight_bold'>разработано и реализованно</span> в&nbsp;РУТ&nbsp;(МИИТ)</p>
+            <p className='statistics__subtitle'><span className='font__weight_bold'>разработано и реализованно</span></p>
           </li>
           <li className='statistics__item'>
-            <span className='statistics__caption'>студентов в 2022 г.</span>
+            <span className='statistics__caption'>студентов в 2022 году</span>
             <CountUp className='statistics__title font__family_crystal' start={0} end={1118} separator=' ' />
-            <p className='statistics__subtitle'>студентов <span className='font__weight_bold'>поступило</span> на обучение в&nbsp;2022&nbsp;году</p>
+            <p className='statistics__subtitle'><span className='font__weight_bold'>поступило</span> на обучение</p>
           </li>
           <li className='statistics__item'>
-            <span className='statistics__caption'>студентов в 2023 г.</span>
+            <span className='statistics__caption'>студентов в 2023 году</span>
             <CountUp className='statistics__title font__family_crystal' start={0} end={2200} separator=' ' />
-            <p className='statistics__subtitle'>студентов <span className='font__weight_bold'>пройдет</span> обучение в&nbsp;2023&nbsp;году</p>
+            <p className='statistics__subtitle'><span className='font__weight_bold'>пройдет</span> обучение</p>
           </li>
         </ul>
       </div>

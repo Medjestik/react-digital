@@ -1,7 +1,11 @@
 import React from 'react';
 import './Description.css';
 
-function Description() {
+function Description({ windowWidth }) {
+
+  console.log(windowWidth);
+
+
   return (
     <div className='description' id='description'>
 
@@ -15,12 +19,20 @@ function Description() {
       </ul>
 
       <div className='container'>
-        <h2 className='description__title font__family_macherie'>Информация</h2> 
-        <div className='description__row'>
-          <p className='description__text description__text_width_small'>Мы создали курсы для развития кадрового потенциала ИТ- отрасли у наших студентов</p>
-          <span className='description__separate'></span>
-          <p className='description__text'>Это расширит возможности отраслей по интеграции цифровых решений, позволит повысить производительность труда, сформировать дополнительные точки роста</p>
-        </div>
+        <h2 className='description__title font__family_macherie'>Информация</h2>
+        {
+          windowWidth > 767
+          ?
+          <div className='description__row'>
+            <p className='description__text description__text_width_small'>Мы создали курсы для развития кадрового потенциала ИТ- отрасли у наших студентов</p>
+            <span className='description__separate'></span>
+            <p className='description__text'>Это расширит возможности отраслей по интеграции цифровых решений, позволит повысить производительность труда, сформировать дополнительные точки роста</p>
+          </div>
+          :
+          <p className='description__text'>Мы создали курсы для развития кадрового потенциала ИТ- отрасли у наших студентов. Это расширит возможности отраслей по интеграции цифровых решений, позволит повысить производительность труда, сформировать дополнительные точки роста</p>
+
+        }
+
       </div>
 
     </div>
