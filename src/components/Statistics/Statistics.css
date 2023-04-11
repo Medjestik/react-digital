@@ -53,3 +53,18 @@
     width: 360px;
   }
 }
+
+@media all and (max-width: 768px) {
+  .statistics {
+    margin: -115px 0px 0px 0px;
+  }
+  .statistics__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .statistics__item {
+    margin: 0px 0px 20px 0px;
+    padding: 32px;
+    width: 100%;
+  }
+}

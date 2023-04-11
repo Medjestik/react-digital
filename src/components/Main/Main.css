@@ -103,4 +103,25 @@
   cursor: pointer;
   color: var(--main-color);
   background-color: var(--white-color);
-} 
+}
+
+@media all and (max-width: 768px) {
+  .main__title {
+    margin: 15vh 0px 0px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 63px;
+  }
+  .main__subtitle {
+    margin: 20px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .main__link {
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

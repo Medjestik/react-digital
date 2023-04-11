@@ -4,10 +4,14 @@ import Popup from '../Popup.js';
 
 function ProgramInfoPopup({ isOpen, onClose, program }) {
 
+  function onSubmit() {
+    onClose();
+  }
+
   return (
     <Popup
     isOpen={isOpen}
-    onSubmit={onClose}
+    onSubmit={onSubmit}
     formWidth={'large'}
     formName={'program-info-popup'}
     >
@@ -36,8 +40,7 @@ function ProgramInfoPopup({ isOpen, onClose, program }) {
             <p className='program-info__list-text'>{program.description}</p>
           </div>
 
-
-          <button className='popup__btn-back' type='submit'>Назад</button>
+          <button className='popup__btn-back' type='button' onClick={onSubmit}>Назад</button>
         </div>
       </div>
 

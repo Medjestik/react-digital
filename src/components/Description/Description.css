@@ -48,6 +48,9 @@
 }
 
 @media all and (max-width: 768px) {
+  .description {
+    padding: 80px 0px 188px 0px;
+  }
   .description__title {
     font-weight: 800;
     font-size: 48px;

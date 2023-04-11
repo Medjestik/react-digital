@@ -2,9 +2,25 @@ import React from 'react';
 import './Footer.css';
 import { Link } from 'react-scroll';
 
-function Footer() {
+function Footer({ windowWidth }) {
   return (
     <footer className='footer'>
+
+      {
+        windowWidth > 767
+        ?
+        <div></div>
+        :
+        <ul className='decoration__lines decoration__lines_type_small'>
+          <li className='decoration__line decoration__line_number_one'>
+          </li>
+          <li className='decoration__line decoration__line_number_two'>
+          </li>
+          <li className='decoration__line decoration__line_number_three'>
+          </li>
+        </ul>
+      }
+
       <div className='container'>
         <div className='footer__container'>
           <div className='footer__info'>

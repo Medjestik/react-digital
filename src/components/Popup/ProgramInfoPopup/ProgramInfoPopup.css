@@ -71,3 +71,27 @@
   line-height: 24px;
   color: var(--subtitle-color);
 }
+
+@media all and (max-width: 767px) {
+  .program-info__container {
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .program-info__caption {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .program-info__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .program-info__list-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .program-info__list-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

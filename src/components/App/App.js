@@ -28,17 +28,19 @@ function App() {
   return (
     <div className='page'>
 
-      <Main />
-      {
-        //
-        //
-      }
-      <Statistics />
       
+      {
+
+      }
+
+      <Main windowWidth={windowWidth} />
+
+      <Statistics />
+        
       <Programs />
       <Description windowWidth={windowWidth} />
       <Advantages />
-      <Footer />
+      <Footer windowWidth={windowWidth} />
   
       
     </div>
