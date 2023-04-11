@@ -32,7 +32,7 @@ function Footer({ windowWidth }) {
               <h4 className='footer__column-title'>Навигация</h4>
               <Link className='footer__link' to='main' smooth={true} offset={0} duration={1500} spy={true}>Главная</Link>
               <Link className='footer__link' to='programs' smooth={true} offset={-80} duration={1000} spy={true}>Программы</Link>
-              <Link className='footer__link' to='description' smooth={true} offset={0} duration={500} spy={true}>Особенности</Link>
+              <Link className='footer__link' to='description' smooth={true} offset={0} duration={500} spy={true}>Информация</Link>
             </div>
             <div className='footer__column footer__column_type_large'>
               <h4 className='footer__column-title'>Ресурсы</h4>
