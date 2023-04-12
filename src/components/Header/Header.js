@@ -22,7 +22,7 @@ function Header({ windowWidth }) {
             </li>
           </ul>
         </nav>
-        <a className='header__button' target='_blank' rel='noreferrer' href='https://edu.emiit.ru/'>Учебный портал</a>
+        <a className='header__button' target='_blank' rel='noreferrer' href='https://test.emiit.ru'>Учебный портал</a>
         </>
         :
         <>
