@@ -52,7 +52,7 @@
 }
 .logo {
   margin: 0px;
-  width: 205px;
+  width: 155px;
   height: 40px;
   background-image: url('../../images/logo.svg');
   background-position: center;
@@ -131,7 +131,7 @@
     margin: 0px 0px 40px 480px;
   }
   .logo {
-    width: 156px;
+    width: 116px;
     height: 30px;
   }
 }
