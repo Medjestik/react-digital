@@ -20,7 +20,7 @@ function Statistics() {
           </li>
           <li className='statistics__item'>
             <span className='statistics__caption'>студентов в 2023 году</span>
-            <CountUp className='statistics__title font__family_crystal' start={0} end={2200} separator=' ' />
+            <CountUp className='statistics__title font__family_crystal' start={0} end={2112} separator=' ' />
             <p className='statistics__subtitle'><span className='font__weight_bold'>пройдет</span> обучение</p>
           </li>
         </ul>
