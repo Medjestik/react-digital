@@ -4,6 +4,8 @@ import kargina from '../images/team/kargina.png';
 import semenova from '../images/team/semenova.png';
 import pavlov from '../images/team/pavlov.png';
 import badalova from '../images/team/badalova.png';
+import homich from '../images/team/homich.png';
+import kartechkin from '../images/team/kartechkin.png';
 
 export const team = [
   {
@@ -34,6 +36,23 @@ export const team = [
     status: '',
     image: badalova,
   },
+  {
+    name: 'Хомич Игорь Вячеславович',
+    type: '',
+    description: 'Генеральный директор компании Tectus Digital',
+    status: '',
+    image: homich,
+  },
+  {
+    name: 'Картечкин Максим Эдуардович',
+    type: '',
+    description: 'Генеральный директор компании ООО "АЛЬМА ЮНИОН"',
+    status: '',
+    image: kartechkin,
+  },
+]
+
+const other = [
   {
     name: 'Семенова Ольга Игоревна',
     type: '',
