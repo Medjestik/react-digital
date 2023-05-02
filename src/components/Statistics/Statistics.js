@@ -9,7 +9,7 @@ function Statistics() {
       <div className='statistics' id='statistics'>
         <ul className='statistics__list'>
           <li className='statistics__item'>
-            <span className='statistics__caption'>программ</span>
+            <span className='statistics__caption'>программ</span> 
             <CountUp className='statistics__title font__family_crystal' start={0} end={6} separator=' ' />
             <p className='statistics__subtitle'><span className='font__weight_bold'>разработано и реализованно</span></p>
           </li>
