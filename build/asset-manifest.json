@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b2d9ed5.css",
-    "main.js": "/static/js/main.76ad2273.js",
+    "main.js": "/static/js/main.404f7680.js",
     "static/js/787.fbbd2da9.chunk.js": "/static/js/787.fbbd2da9.chunk.js",
     "static/media/background.svg": "/static/media/background.ce37917fe5930203dd3e.svg",
     "static/media/ProximaNova-Light.eot": "/static/media/ProximaNova-Light.dc970b778a98f9a75423.eot",
@@ -28,6 +28,7 @@
     "static/media/ProximaNova-Extrabld.woff": "/static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
     "static/media/ProximaNova-Black.woff": "/static/media/ProximaNova-Black.131eab64b8a971a4fc73.woff",
     "static/media/tectus.svg": "/static/media/tectus.f3dfc6e815efdd2025584298591fda93.svg",
+    "static/media/ad.png": "/static/media/ad.c1008785ccc5b52b7dd6.png",
     "static/media/crystal.ttf": "/static/media/crystal.9e9018a489daa1302414.ttf",
     "static/media/borsh.png": "/static/media/borsh.3b6545f79859377897b5.png",
     "static/media/MADEEvolveSansEVO-Bold.woff": "/static/media/MADEEvolveSansEVO-Bold.5256bea49f895145a056.woff",
@@ -62,11 +63,11 @@
     "static/media/video.svg": "/static/media/video.d25f76f46e4c8515c841.svg",
     "static/media/footer-arrow.svg": "/static/media/footer-arrow.9e5bf68416b1376934f2.svg",
     "main.1b2d9ed5.css.map": "/static/css/main.1b2d9ed5.css.map",
-    "main.76ad2273.js.map": "/static/js/main.76ad2273.js.map",
+    "main.404f7680.js.map": "/static/js/main.404f7680.js.map",
     "787.fbbd2da9.chunk.js.map": "/static/js/787.fbbd2da9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b2d9ed5.css",
-    "static/js/main.76ad2273.js"
+    "static/js/main.404f7680.js"
   ]
 }
