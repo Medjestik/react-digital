@@ -127,6 +127,7 @@
   width: 100%;
   margin: 0px;
   padding: 0px 0px 0px 20px;
+  box-sizing: border-box;
   list-style-type: disc;
 }
 .program-info__section-item-list_type_row {
@@ -146,14 +147,6 @@
   margin: 8px 0px 0px 0px;
 }
 
-
-
-
-
-
-
-
-
 @media all and (max-width: 767px) {
   .program-info__container {
     padding: 24px 16px;
@@ -168,5 +161,28 @@
     font-size: 32px;
     line-height: 36px;
   }
-
+  .program-info__tag {
+    margin: 8px 12px 0px 0px;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .program-info__section-title {
+    margin: 12px 0px 8px 0px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .program-info__section-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .program-info__section-item-title {
+    margin: 8px 0px 0px 0px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .program-info__section-item-list-item {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

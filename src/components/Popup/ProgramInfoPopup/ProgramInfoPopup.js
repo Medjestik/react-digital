@@ -8,11 +8,49 @@ function ProgramInfoPopup({ isOpen, onClose, program }) {
 
   function onChangeSection(section) {
     setCurrentSection(section);
-    console.log(section);
   }
 
   function onSubmit() {
     onClose();
+  }
+
+  function renderSectionData(elem, i) {
+    if (elem.dataType === 'row') {
+      return (
+        <li className='program-info__section-item' key={i}>
+          <h6 className='program-info__section-item-title'>{elem.dataTitle}</h6>
+          <ul className='program-info__section-item-list program-info__section-item-list_type_row'>
+            {
+              elem.rows.map((elem, i) => (
+                <li className='program-info__section-item-list-item program-info__section-item-list-item_type_row' key={i}><span className='font__weight_bold'>{elem.rowTitle}</span>{elem.rowText}</li>
+              ))
+            }
+          </ul>
+        </li>
+      )
+    } else if (elem.dataType === 'list') {
+      return (
+        <li className='program-info__section-item' key={i}>
+          <h6 className='program-info__section-item-title'>{elem.dataTitle}</h6>
+          <ul className='program-info__section-item-list'>
+            {
+              elem.list.map((elem, i) => (
+                <li className='program-info__section-item-list-item' key={i}>{elem}</li>
+              ))
+            }
+          </ul>
+        </li>
+      )
+    } else {
+      return (
+        <li className='program-info__section-item' key={i}>
+          <h6 className='program-info__section-item-title'>{elem.dataTitle}</h6>
+          <div className='program-info__section-item-list program-info__section-item-list_type_row'>
+            <p className='program-info__section-item-list-item program-info__section-item-list-item_type_row'>{elem.text}</p>
+          </div>
+        </li>
+      )
+    }
   }
 
   return (
@@ -46,29 +84,7 @@ function ProgramInfoPopup({ isOpen, onClose, program }) {
             <ul className='program-info__section-list'>
               {
                 currentSection.sectionData.map((elem, i) => (
-                  elem.dataType === 'list' 
-                  ?
-                  <li className='program-info__section-item' key={i}>
-                    <h6 className='program-info__section-item-title'>{elem.dataTitle}</h6>
-                    <ul className='program-info__section-item-list'>
-                      {
-                        elem.list.map((elem, i) => (
-                          <li className='program-info__section-item-list-item' key={i}>{elem}</li>
-                        ))
-                      }
-                    </ul>
-                  </li>
-                  :
-                  <li className='program-info__section-item' key={i}>
-                    <h6 className='program-info__section-item-title'>{elem.dataTitle}</h6>
-                    <ul className='program-info__section-item-list program-info__section-item-list_type_row'>
-                      {
-                        elem.rows.map((elem, i) => (
-                          <li className='program-info__section-item-list-item program-info__section-item-list-item_type_row' key={i}><span className='font__weight_bold'>{elem.rowTitle}</span>{elem.rowText}</li>
-                        ))
-                      }
-                    </ul>
-                  </li>
+                  renderSectionData(elem, i)
                 ))
               }
             </ul>
