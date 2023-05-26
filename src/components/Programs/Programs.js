@@ -1,6 +1,6 @@
 import React from 'react';
 import './Programs.css';
-import { programs } from '../../utils/programs.js';
+import { newPrograms } from '../../utils/programs.js';
 import ProgramInfoPopup from '../Popup/ProgramInfoPopup/ProgramInfoPopup.js';
 
 function Programs() {
@@ -30,7 +30,7 @@ function Programs() {
         <h2 className='programs__title font__family_macherie'>Программы</h2>
         <ul className='programs__list'>
           {
-            programs.map((elem, i) => (
+            newPrograms.map((elem, i) => (
               <li className='programs__item' key={i}>
                 <div className='programs__item-img-container'>
                   <div className='programs__item-img-overlay'></div>
