@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fa28343c.css",
-    "main.js": "/static/js/main.0228a22b.js",
+    "main.js": "/static/js/main.e330b6fb.js",
     "static/js/787.fbbd2da9.chunk.js": "/static/js/787.fbbd2da9.chunk.js",
     "static/media/background.svg": "/static/media/background.ce37917fe5930203dd3e.svg",
     "static/media/ProximaNova-Light.eot": "/static/media/ProximaNova-Light.dc970b778a98f9a75423.eot",
@@ -63,11 +63,11 @@
     "static/media/video.svg": "/static/media/video.d25f76f46e4c8515c841.svg",
     "static/media/footer-arrow.svg": "/static/media/footer-arrow.9e5bf68416b1376934f2.svg",
     "main.fa28343c.css.map": "/static/css/main.fa28343c.css.map",
-    "main.0228a22b.js.map": "/static/js/main.0228a22b.js.map",
+    "main.e330b6fb.js.map": "/static/js/main.e330b6fb.js.map",
     "787.fbbd2da9.chunk.js.map": "/static/js/787.fbbd2da9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa28343c.css",
-    "static/js/main.0228a22b.js"
+    "static/js/main.e330b6fb.js"
   ]
 }
