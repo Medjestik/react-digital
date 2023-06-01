@@ -20,6 +20,9 @@ function Header({ windowWidth }) {
             <li className='nav__item'>
               <Link className='nav__link' to='description' smooth={true} offset={0} duration={1000} spy={true}>Информация</Link>
             </li>
+            <li className='nav__item'>
+              <Link className='nav__link' to='news' smooth={true} offset={-50} duration={1500} spy={true}>Новости</Link>
+            </li>
           </ul>
         </nav>
         <a className='header__button' target='_blank' rel='noreferrer' href='https://test.emiit.ru'>Учебный портал</a>

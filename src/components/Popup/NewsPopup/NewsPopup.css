@@ -1,0 +1,29 @@
+.news-popup__title {
+  margin: 12px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: var(--white-color);
+}
+.news-popup__text {
+  margin: 0px 0px 8px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--title-color);
+}
+
+@media all and (max-width: 768px) {
+  .news-popup__title {
+    margin: 12px 0px 0px 0px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .news-popup__text {
+    margin: 0px 0px 8px 0px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

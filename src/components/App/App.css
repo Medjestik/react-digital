@@ -90,6 +90,48 @@
 .decoration__line_number_three {
   margin: 0px 0px 160px 480px;
 }
+
+.rec.rec-arrow {
+  margin: 0px 5px;
+  background-color: inherit;
+  box-sizing: border-box;
+  color: var(--secondary-color);
+}
+.rec.rec-arrow:hover:enabled {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+.rec.rec-dot:hover {
+  box-shadow: 0 0 1px 3px rgb(245 56 56 / 40%);
+}
+.rec.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgb(245 56 56 / 40%);
+}
+.rec.rec-dot_active {
+  background-color: var(--secondary-color);
+  box-shadow: 0 0 1px 3px rgb(245 56 56 / 40%);
+}
+
+@media all and (max-width: 768px) {
+  .rec.rec-slider-container {
+    margin: 0px;
+  }
+  .rec.rec-arrow {
+    display: none;
+  }
+  .partners {
+    margin: 40px 0px 80px 0px;
+  }
+  .partners__title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .partners__item {
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 1400px) {
   .container {
     padding: 0px 32px;
