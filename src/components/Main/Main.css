@@ -40,6 +40,7 @@
   position: relative;
   z-index: 5;
   width: 100%;
+  max-width: min-content;
   padding: 12px 36px;
   box-sizing: border-box;
   border-radius: var(--border-radius);
@@ -48,6 +49,8 @@
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+  outline: none;
+  border: none;
   color: var(--white-color);
   background-color: var(--secondary-color);
   text-decoration: none;
@@ -56,6 +59,9 @@
 .main__link:hover {
   cursor: pointer;
   box-shadow: 0 8px 12px -8px var(--secondary-color);
+}
+.main__link_type_second {
+  margin: 0px 0px 0px 20px;
 }
 .main__overlay {
   position: absolute;
@@ -117,6 +123,9 @@
     margin: 20px 0px 0px 0px;
     font-size: 16px;
     line-height: 20px;
+  }
+  .main__link_type_second {
+    margin: 20px 0px 0px 0px;
   }
   .main__link {
     padding: 12px 24px;

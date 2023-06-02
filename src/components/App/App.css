@@ -90,7 +90,64 @@
 .decoration__line_number_three {
   margin: 0px 0px 160px 480px;
 }
-
+.btn_type_download {
+  background: var(--secondary-color);
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0px 12px 0px 0px;
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+.btn_type_download:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+.btn_type_download::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-image: url('../../images/download.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+.btn_type_view {
+  background: var(--secondary-color);
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0px 12px 0px 0px;
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+.btn_type_view:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+.btn_type_view::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-image: url('../../images/view.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  width: 24px;
+  height: 24px;
+}
 .rec.rec-arrow {
   margin: 0px 5px;
   background-color: inherit;

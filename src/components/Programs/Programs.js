@@ -1,28 +1,8 @@
 import React from 'react';
 import './Programs.css';
 import { newPrograms } from '../../utils/programs.js';
-import ProgramInfoPopup from '../Popup/ProgramInfoPopup/ProgramInfoPopup.js';
 
-function Programs() {
-
-  const [isOpenProgramInfoPopup, setIsOpenProgramInfoPopup] = React.useState(false);
-
-  const [currentProgram, setCurrentProgram] = React.useState({});
-
-  function openProgramInfoPopup(program) {
-    setCurrentProgram(program);
-    setIsOpenProgramInfoPopup(true);
-  }
-
-  function closePopups() {
-    setIsOpenProgramInfoPopup(false);
-  }
-
-  React.useEffect(() => {
-    return(() => {
-      setCurrentProgram({});
-    })
-  }, []);
+function Programs({ onOpenProgram }) {
 
   return (
     <div className='container'>
@@ -45,7 +25,7 @@ function Programs() {
                 <div className='programs__item-info'>
                   <span className='programs__item-caption'>{elem.type + ' | ' + elem.form}</span>
                   <h4 className='programs__item-title font__family_macherie'>{elem.title}</h4>
-                  <button className='programs__item-button programs__item-button_type_active' type='button' onClick={() => openProgramInfoPopup(elem)}>Подробнее</button>
+                  <button className='programs__item-button programs__item-button_type_active' type='button' onClick={() => onOpenProgram(elem)}>Подробнее</button>
                 </div>
               </li>
             ))
@@ -53,14 +33,7 @@ function Programs() {
         </ul>
       </div>
 
-      {
-        isOpenProgramInfoPopup &&
-        <ProgramInfoPopup
-          isOpen={isOpenProgramInfoPopup}
-          onClose={closePopups}
-          program={currentProgram}
-        />
-      }
+
 
     </div>
   );
