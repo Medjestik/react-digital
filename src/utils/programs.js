@@ -426,7 +426,7 @@ export const newPrograms = [
     type: 'ДПО',
     form: 'Очно-заочная форма',
     image: ad,
-    link: '',
+    link: 'https://www.youtube.com/embed/YV37pehz00w',
     sections: [
       {
         sectionTitle: 'Информация о программе',
