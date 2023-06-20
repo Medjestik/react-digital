@@ -16,6 +16,12 @@ function Programs({ onOpenProgram }) {
                   <div className='programs__item-img-overlay'></div>
                   <img className='programs__item-img' src={elem.image} alt=' '></img>
                   {
+                    elem.request && 
+                    <div className='programs__item-request-container'>
+                      <a className='programs__item-request' target='_blank' rel='noreferrer' href={elem.request}>Заявка</a>
+                    </div>
+                  }
+                  {
                     elem.link && 
                     <div className='programs__item-link-container'>
                       <a className='programs__item-link' target='_blank' rel='noreferrer' href={elem.link}>Видео</a>

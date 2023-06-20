@@ -6,6 +6,7 @@ import pavlov from '../images/team/pavlov.png';
 import badalova from '../images/team/badalova.png';
 import homich from '../images/team/homich.png';
 import kartechkin from '../images/team/kartechkin.png';
+import sidorenko from '../images/team/sidorenko.jpg';
 
 export const team = [
   {
@@ -44,12 +45,13 @@ export const team = [
     image: homich,
   },
   {
-    name: 'Картечкин Максим Эдуардович',
+    name: 'Сидоренко Валентина Геннадьевна',
     type: '',
-    description: 'Генеральный директор компании ООО "АЛЬМА ЮНИОН"',
-    status: '',
-    image: kartechkin,
+    description: 'Профессор кафедры «Управление и защита информации»',
+    status: 'Доктор технических наук',
+    image: sidorenko,
   },
+
 ]
 
 const other = [
@@ -66,5 +68,12 @@ const other = [
     description: 'Архитектор платформы данных ООО\u00a0«Дататех» (входит в\u00a0состав ГК\u00a0«Иннотех»). Стаж практической работы в\u00a0IT подразделениях более\u00a015\u00a0лет.',
     status: '',
     image: pavlov,
+  },
+  {
+    name: 'Картечкин Максим Эдуардович',
+    type: '',
+    description: 'Генеральный директор компании ООО "АЛЬМА ЮНИОН"',
+    status: '',
+    image: kartechkin,
   },
 ]

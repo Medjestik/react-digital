@@ -15,6 +15,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: rppb,
     link: 'https://www.youtube.com/embed/XgU__N4gAJs',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -151,6 +152,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: oryp,
     link: '',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -292,6 +294,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: iimo,
     link: '',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -427,6 +430,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: ad,
     link: 'https://www.youtube.com/embed/YV37pehz00w',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -635,6 +639,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: tim,
     link: '',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -828,7 +833,8 @@ export const newPrograms = [
     type: 'ДПО',
     form: 'Очно-заочная форма',
     image: pa,
-    link: '',
+    link: 'https://www.youtube.com/embed/Tzoxefs0Z1E',
+    request: 'https://docs.google.com/forms/d/e/1FAIpQLSdWFUXPZ1UjYbtMAli_mgx-9aQajLuRCaiHGSDhRgctC3S0cw/viewform',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -1018,6 +1024,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: cr,
     link: '',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -1223,6 +1230,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: isi,
     link: '',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -1358,6 +1366,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: jr,
     link: '',
+    request: '',
     sections: [
       {
         sectionTitle: 'Информация о программе',
