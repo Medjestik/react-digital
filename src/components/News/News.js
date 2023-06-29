@@ -50,7 +50,7 @@ function News({ windowWidth }) {
             news.map((elem, i) => (
               <li className='news__item' key={i}>
                 <div className='news__item-img-overlay'></div>
-                <img className='news__item-img' src={elem.image} alt=' '></img>
+                <img className='news__item-img' src={elem.poster} alt=' '></img>
                 <div className='news__item-info'>
                   <p className='news__item-date'>{elem.date}</p>
                   <h3 className='news__item-title'>{elem.title}</h3>

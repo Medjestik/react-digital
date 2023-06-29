@@ -4,6 +4,11 @@
   position: relative;
   overflow: hidden;
 }
+.program-info__top {
+  width: 100%;
+  margin: 0px;
+  position: relative;
+}
 .program-info__img {
   position: absolute;
   top: 0px;

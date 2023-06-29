@@ -18,7 +18,7 @@ function NewsPopup({ isOpen, onClose, news }) {
     >
 
       <div className='program-info__top'>
-        <img className='program-info__img' src={news.image} alt=' '></img>
+        <img className='program-info__img' src={news.poster} alt=' '></img>
         <div className='program-info__overlay'></div>
         <div className='program-info__container'>
           <span className='program-info__caption'>{news.date}</span>
@@ -29,8 +29,28 @@ function NewsPopup({ isOpen, onClose, news }) {
       <div className='program-info__bottom'>
         <div className='program-info__container'>
           {
-            news.text.map((elem, i) => (
-              <p className='news-popup__text' key={i}>{elem}</p>
+            news.content.map((elem, i) => (
+              <div key={i}>
+              {         
+                elem.type === 'text' &&
+                <p className='news-popup__text'>{elem.text}</p>
+              }
+
+              {         
+                elem.type === 'gallery' &&
+                <>
+                  <div className='news-popup__pict-container'>
+                    {
+                      elem.img.map((elem, index) =>(
+                        <img className='news-popup__pict' key={index} src={elem} alt=' '></img>
+                      ))
+                    }
+                  </div>
+                  <p className='news-popup__text'>{elem.caption}</p>
+                </>
+                
+              }
+              </div>
             ))
           }
           <button className='popup__btn-back' type='button' onClick={onSubmit}>Назад</button>
