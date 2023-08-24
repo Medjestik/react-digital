@@ -1,3 +1,18 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.95);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .programs {
   width: 100%;
   margin: 160px 0px;
@@ -34,6 +49,24 @@
   border-top-right-radius: var(--border-radius);
   border-top-left-radius: var(--border-radius);
   position: relative;
+}
+.programs__item-img-tag {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  padding: 3px 8px;
+  color: var(--white-color);
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: -webkit-max-content;
+  animation: pulse 2s ease-in-out infinite;
+  width: max-content;
+  background-color: var(--secondary-color);
 }
 .programs__item-img {
   margin: 0px;

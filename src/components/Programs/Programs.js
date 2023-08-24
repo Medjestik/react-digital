@@ -14,6 +14,10 @@ function Programs({ onOpenProgram }) {
               <li className='programs__item' key={i}>
                 <div className='programs__item-img-container'>
                   <div className='programs__item-img-overlay'></div>
+                  {
+                    elem.open &&
+                    <div className='programs__item-img-tag'>Ведется новый набор</div>
+                  }
                   <img className='programs__item-img' src={elem.image} alt=' '></img>
                   {
                     elem.request && 
