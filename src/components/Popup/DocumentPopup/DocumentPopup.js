@@ -24,11 +24,11 @@ function DocumentPopup({ isOpen, onClose, onOpenProgram }) {
           <h4 className='popup__subtitle'>Список документов: </h4>
           <ul className='popup__list'>
             <li className='popup__item'>
-              <a className='btn_type_download' target='_blank' rel='noreferrer' href='https://edu.emiit.ru/ivan/ck/1.pdf'> </a>
+              <a className='btn_type_download' target='_blank' rel='noreferrer' href='https://old.emiit.ru/ivan/ck/1.pdf'> </a>
               <p className='popup__list-text'>Соглашение о создании Консорциума</p>
             </li>
             <li className='popup__item'>
-              <a className='btn_type_download' target='_blank' rel='noreferrer' href='https://edu.emiit.ru/ivan/ck/2.docx'> </a>
+              <a className='btn_type_download' target='_blank' rel='noreferrer' href='https://old.emiit.ru/ivan/ck/2.docx'> </a>
               <p className='popup__list-text'>Согласие на присоединение к Консорциуму</p>
             </li>
           </ul>
