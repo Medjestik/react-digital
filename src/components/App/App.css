@@ -119,6 +119,35 @@
   width: 20px;
   height: 20px;
 }
+.btn_type_link {
+  background: var(--secondary-color);
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0px 12px 0px 0px;
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+.btn_type_link:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+.btn_type_link::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-image: url('../../images/link.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+}
 .btn_type_view {
   background: var(--secondary-color);
   border: none;

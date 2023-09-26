@@ -53,6 +53,30 @@ function DocumentPopup({ isOpen, onClose, onOpenProgram }) {
             </li>
           </ul>
 
+          <h4 className='popup__subtitle'>Участники консорциума: </h4>
+          <ul className='popup__list'>
+            <li className='popup__item'>
+              <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://www.usurt.ru/'> </a>
+              <p className='popup__list-text'>ФГБОУ ВО «Уральский государственный университет путей сообщения»</p>
+            </li>
+            <li className='popup__item'>
+              <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://www.rgups.ru/'> </a>
+              <p className='popup__list-text'>ФГБОУ ВО «Ростовский государственный университет путей сообщения»</p>
+            </li>
+            <li className='popup__item'>
+              <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://www.samgups.ru/'> </a>
+              <p className='popup__list-text'>ФГБОУ ВО «Самарский государственный университет путей сообщения»</p>
+            </li>
+            <li className='popup__item'>
+              <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://gumrf.ru/'> </a>
+              <p className='popup__list-text'>ФГБОУ ВО «Государственный университет морского и речного флота имени адмирала С.О. Макарова»</p>
+            </li>
+            <li className='popup__item'>
+              <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://vsuwt.ru/'> </a>
+              <p className='popup__list-text'>ФГБОУ ВО «Волжский государственный университет водного транспорта»</p>
+            </li>
+          </ul>
+
           <button className='popup__btn-back' type='button' onClick={onSubmit}>Назад</button>
         </div>
       </div>      
