@@ -3,7 +3,7 @@ import './Main.css';
 import Header from '../Header/Header.js';
 import Marquee from 'react-fast-marquee';
 
-function Main({ windowWidth, onOpenDocument }) {
+function Main({ windowWidth, onOpenDocument, onOpenConsortium }) {
   return (
     <div className='main' id='main'>
       
@@ -17,7 +17,8 @@ function Main({ windowWidth, onOpenDocument }) {
 
         <div className='main__link-container'>
           <a className='main__link' target='_blank' rel='noreferrer' href='https://www.youtube.com/embed/6YzBVZEgj7g'>Марафон цифровых кафедр</a>
-          <button className='main__link main__link_type_second' type='button' onClick={onOpenDocument}>Консорциум</button>
+          <button className='main__link main__link_type_second' type='button' onClick={onOpenConsortium}>Консорциум</button>
+          <button className='main__link main__link_type_second' type='button' onClick={onOpenDocument}>Документы</button>
         </div>
 
       </div>

@@ -10,6 +10,7 @@ import Team from '../Team/Team.js';
 import Partners from '../Partners/Partners.js';
 import Footer from '../Footer/Footer.js';
 import ProgramInfoPopup from '../Popup/ProgramInfoPopup/ProgramInfoPopup.js';
+import ConsortiumPopup from '../Popup/ConsortiumPopup/ConsortiumPopup.js';
 import DocumentPopup from '../Popup/DocumentPopup/DocumentPopup.js';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
   const [isOpenProgramInfoPopup, setIsOpenProgramInfoPopup] = React.useState(false);
   const [isOpenDocumentPopup, setIsOpenDocumentPopup] = React.useState(false);
+  const [isOpenConsortiumPopup, setIsOpenConsortiumPopup] = React.useState(false);
 
   const [currentProgram, setCurrentProgram] = React.useState({});
 
@@ -31,9 +33,14 @@ function App() {
     setIsOpenDocumentPopup(true);
   }
 
+  function openConsortiumPopup() {
+    setIsOpenConsortiumPopup(true);
+  }
+
   function closePopups() {
     setIsOpenProgramInfoPopup(false);
     setIsOpenDocumentPopup(false);
+    setIsOpenConsortiumPopup(false);
   }
 
   React.useEffect(() => {
@@ -60,7 +67,7 @@ function App() {
   return (
     <div className='page'>
 
-      <Main windowWidth={windowWidth} onOpenDocument={openDocumentPopup} />
+      <Main windowWidth={windowWidth} onOpenDocument={openDocumentPopup} onOpenConsortium={openConsortiumPopup} />
       <Statistics />
       <Programs onOpenProgram={openProgramInfoPopup} />
       <Description windowWidth={windowWidth} />
@@ -80,11 +87,19 @@ function App() {
       }
 
       {
+        isOpenConsortiumPopup &&
+        <ConsortiumPopup
+          isOpen={isOpenConsortiumPopup}
+          onClose={closePopups}
+          onOpenProgram={openProgramInfoPopup}
+        />
+      }
+
+      {
         isOpenDocumentPopup &&
         <DocumentPopup
           isOpen={isOpenDocumentPopup}
           onClose={closePopups}
-          onOpenProgram={openProgramInfoPopup}
         />
       }
    

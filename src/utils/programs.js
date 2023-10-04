@@ -17,7 +17,7 @@ export const newPrograms = [
     image: pa,
     link: 'https://www.youtube.com/embed/Tzoxefs0Z1E',
     request: 'https://docs.google.com/forms/d/e/1FAIpQLSdWFUXPZ1UjYbtMAli_mgx-9aQajLuRCaiHGSDhRgctC3S0cw/viewform',
-    open: true,
+    open: false,
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -208,7 +208,7 @@ export const newPrograms = [
     image: tim,
     link: '',
     request: '',
-    open: true,
+    open: false,
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -404,7 +404,7 @@ export const newPrograms = [
     image: cr,
     link: '',
     request: '',
-    open: true,
+    open: false,
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -611,7 +611,7 @@ export const newPrograms = [
     image: oryp,
     link: '',
     request: '',
-    open: true,
+    open: false,
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -754,7 +754,7 @@ export const newPrograms = [
     image: iimo,
     link: '',
     request: '',
-    open: true,
+    open: false,
     sections: [
       {
         sectionTitle: 'Информация о программе',
@@ -891,7 +891,7 @@ export const newPrograms = [
     image: ad,
     link: 'https://www.youtube.com/embed/YV37pehz00w',
     request: '',
-    open: true,
+    open: false,
     sections: [
       {
         sectionTitle: 'Информация о программе',
