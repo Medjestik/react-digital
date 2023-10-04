@@ -16,7 +16,7 @@ export const newPrograms = [
     form: 'Очно-заочная форма',
     image: pa,
     link: 'https://www.youtube.com/embed/Tzoxefs0Z1E',
-    request: 'https://docs.google.com/forms/d/e/1FAIpQLSdWFUXPZ1UjYbtMAli_mgx-9aQajLuRCaiHGSDhRgctC3S0cw/viewform',
+    request: '',
     open: false,
     sections: [
       {
