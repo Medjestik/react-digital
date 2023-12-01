@@ -2,30 +2,11 @@ import React from 'react';
 import './News.css'
 import { news } from '../../utils/news.js';
 import Carousel from 'react-elastic-carousel';
-import NewsPopup from '../Popup/NewsPopup/NewsPopup.js';
 
-function News({ windowWidth }) {
+
+function News({ windowWidth, onOpen }) {
 
   const [slideCount, setSlideCount] = React.useState(0);
-
-  const [isOpenNewsPopup, setIsOpenNewsPopup] = React.useState(false);
-
-  const [currentNews, setCurrentNews] = React.useState({});
-
-  function openNewsPopup(news) {
-    setCurrentNews(news);
-    setIsOpenNewsPopup(true);
-  }
-
-  function closePopups() {
-    setIsOpenNewsPopup(false);
-  }
-
-  React.useEffect(() => {
-    return(() => {
-      setCurrentNews({});
-    })
-  }, []);
 
   React.useEffect(() => {
     if (windowWidth < 1279) {
@@ -54,7 +35,7 @@ function News({ windowWidth }) {
                 <div className='news__item-info'>
                   <p className='news__item-date'>{elem.date}</p>
                   <h3 className='news__item-title'>{elem.title}</h3>
-                  <button className='news__item-btn' type='button' onClick={() => openNewsPopup(elem)}>Читать</button>
+                  <button className='news__item-btn' type='button' onClick={() => onOpen(elem)}>Читать</button>
                 </div>
               </li>
             ))
@@ -62,16 +43,6 @@ function News({ windowWidth }) {
           </Carousel>
         </ul>
       </div>
-
-      {
-        isOpenNewsPopup &&
-        <NewsPopup
-          isOpen={isOpenNewsPopup}
-          onClose={closePopups}
-          news={currentNews}
-        />
-      }
-
     </div>
   );
 }
