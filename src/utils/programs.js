@@ -1094,6 +1094,9 @@ export const newPrograms = [
       },
     ]
   },
+]
+
+export const oldPrograms = [
   {
     title: 'Разработка программных приложений для\u00a0бизнеса',
     type: 'ДПО',
@@ -1516,3 +1519,4 @@ export const newPrograms = [
     ]
   },
 ]
+

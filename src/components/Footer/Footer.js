@@ -41,7 +41,7 @@ function Footer({ windowWidth }) {
             </div>
           </nav>
         </div>
-        <p className='footer__copy'>&#169; 2023 "Российский университет транспорта"</p>
+        <p className='footer__copy'>&#169; 2024 "Российский университет транспорта"</p>
       </div>
     </footer>
   );
