@@ -6,7 +6,8 @@ import pavlov from '../images/team/pavlov.png';
 import badalova from '../images/team/badalova.png';
 import homich from '../images/team/homich.png';
 import kartechkin from '../images/team/kartechkin.png';
-import sidorenko from '../images/team/sidorenko.jpg';
+import sidorenko from '../images/team/sidorenko.png';
+import nesterov from '../images/team/nesterov.png';
 
 export const team = [
   {
@@ -31,27 +32,26 @@ export const team = [
     image: kargina,
   },
   {
-    name: 'Бадалова Анна Игоревна',
-    type: '',
-    description: 'Начальник отдела моделирования бизнес-процессов научно-образовательного центра «Интеллектуальные транспортные системы и\u00a0технологии»',
-    status: '',
-    image: badalova,
-  },
-  {
-    name: 'Хомич Игорь Вячеславович',
-    type: '',
-    description: 'Генеральный директор компании Tectus Digital',
-    status: '',
-    image: homich,
-  },
-  {
     name: 'Сидоренко Валентина Геннадьевна',
     type: '',
     description: 'Профессор кафедры «Управление и защита информации»',
     status: 'Доктор технических наук',
     image: sidorenko,
   },
-
+  {
+    name: 'Нестеров Иван Владимирович',
+    type: '',
+    description: 'и.о. зав. кафедрой «Системы автоматизированного проектирования»',
+    status: 'Кандидат технических наук',
+    image: nesterov,
+  },
+  {
+    name: 'Семенова Ольга Игоревна',
+    type: '',
+    description: 'Заместитель начальника управления цифровой трансформации РУТ\u00a0(МИИТ)',
+    status: '',
+    image: semenova,
+  },
 ]
 
 const other = [
@@ -75,5 +75,19 @@ const other = [
     description: 'Генеральный директор компании ООО "АЛЬМА ЮНИОН"',
     status: '',
     image: kartechkin,
+  },
+  {
+    name: 'Бадалова Анна Игоревна',
+    type: '',
+    description: 'Начальник отдела моделирования бизнес-процессов научно-образовательного центра «Интеллектуальные транспортные системы и\u00a0технологии»',
+    status: '',
+    image: badalova,
+  },
+  {
+    name: 'Хомич Игорь Вячеславович',
+    type: '',
+    description: 'Генеральный директор компании Tectus Digital',
+    status: '',
+    image: homich,
   },
 ]
