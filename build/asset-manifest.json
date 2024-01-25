@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58569fb5.css",
-    "main.js": "/static/js/main.3339903a.js",
+    "main.js": "/static/js/main.74a86e8c.js",
     "static/js/787.fbbd2da9.chunk.js": "/static/js/787.fbbd2da9.chunk.js",
     "static/media/4.jpg": "/static/media/4.3888da09b441c18536c6.jpg",
     "static/media/9.jpg": "/static/media/9.909264db608547fd4c23.jpg",
@@ -12,12 +12,13 @@
     "static/media/7.jpg": "/static/media/7.ef75f35d74d5e81e297a.jpg",
     "static/media/8.jpg": "/static/media/8.40941442415ef10f3d40.jpg",
     "static/media/5.jpg": "/static/media/5.b5c0a946b5dff4068327.jpg",
-    "static/media/1.jpg": "/static/media/1.5d87f736dedd33307c45.jpg",
+    "static/media/1.jpg": "/static/media/1.1e41e42d5ca56fd6e36b.jpg",
     "static/media/11.jpg": "/static/media/11.c3602910740a55f0afe8.jpg",
     "static/media/3.jpg": "/static/media/3.00a6279fc7d77716d59a.jpg",
     "static/media/background.svg": "/static/media/background.ce37917fe5930203dd3e.svg",
     "static/media/news-5.png": "/static/media/news-5.459bf729b90fd7483a2d.png",
     "static/media/news-1.png": "/static/media/news-1.346de57d36e5ff820d1e.png",
+    "static/media/news-6.png": "/static/media/news-6.c51d9c918400d869d58a.png",
     "static/media/news-3.png": "/static/media/news-3.9942cc316fae28cee943.png",
     "static/media/news-4.png": "/static/media/news-4.46c4dcb9232875658c9c.png",
     "static/media/news-2.png": "/static/media/news-2.946a86f76d0068c2784f.png",
@@ -85,11 +86,11 @@
     "static/media/video.svg": "/static/media/video.d25f76f46e4c8515c841.svg",
     "static/media/footer-arrow.svg": "/static/media/footer-arrow.9e5bf68416b1376934f2.svg",
     "main.58569fb5.css.map": "/static/css/main.58569fb5.css.map",
-    "main.3339903a.js.map": "/static/js/main.3339903a.js.map",
+    "main.74a86e8c.js.map": "/static/js/main.74a86e8c.js.map",
     "787.fbbd2da9.chunk.js.map": "/static/js/787.fbbd2da9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58569fb5.css",
-    "static/js/main.3339903a.js"
+    "static/js/main.74a86e8c.js"
   ]
 }

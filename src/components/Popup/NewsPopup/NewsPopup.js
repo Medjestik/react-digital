@@ -37,6 +37,11 @@ function NewsPopup({ isOpen, onClose, news }) {
               }
 
               {         
+                elem.type === 'picture' &&
+                <img className='news-popup__pict' src={elem.img} alt=' '></img>
+              }
+
+              {         
                 elem.type === 'gallery' &&
                 <>
                   <div className='news-popup__pict-container'>
