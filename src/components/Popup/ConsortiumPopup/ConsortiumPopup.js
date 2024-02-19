@@ -75,7 +75,13 @@ function ConsortiumPopup({ isOpen, onClose, onOpenProgram }) {
               <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://vsuwt.ru/'> </a>
               <p className='popup__list-text'>ФГБОУ ВО «Волжский государственный университет водного транспорта»</p>
             </li>
+            <li className='popup__item'>
+              <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://www.vavt.ru/'> </a>
+              <p className='popup__list-text'>ФГБОУ ВО «ВАВТ Минэкономразвития России» </p>
+            </li>
           </ul>
+          
+          
 
           <button className='popup__btn-back' type='button' onClick={onSubmit}>Назад</button>
         </div>

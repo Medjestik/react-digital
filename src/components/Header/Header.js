@@ -23,6 +23,9 @@ function Header({ windowWidth }) {
             <li className='nav__item'>
               <Link className='nav__link' to='news' smooth={true} offset={-50} duration={1500} spy={true}>Новости</Link>
             </li>
+            <li className='nav__item'>
+              <a className='nav__link' href='https://vk.com/cifravvyze' target='_blank' rel='noreferrer'>Группа VK</a>
+            </li>
           </ul>
         </nav>
         <a className='header__button' target='_blank' rel='noreferrer' href='https://test.emiit.ru'>Учебный портал</a>
@@ -31,8 +34,8 @@ function Header({ windowWidth }) {
         <>
         <nav className='nav'>
           <ul className='nav__list'>
-            <li className='nav__item'>
-              <Link className='nav__link' to='programs' smooth={true} offset={-80} duration={500} spy={true}>Программы</Link>
+          <li className='nav__item'>
+              <a className='nav__link' href='https://vk.com/cifravvyze' target='_blank' rel='noreferrer'>Группа VK</a>
             </li>
           </ul>
         </nav>
