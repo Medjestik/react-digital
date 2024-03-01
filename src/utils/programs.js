@@ -141,8 +141,8 @@ export const newPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -322,8 +322,8 @@ export const newPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ:',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -529,8 +529,8 @@ export const newPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -734,8 +734,8 @@ export const newPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -871,8 +871,8 @@ export const newPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -1024,8 +1024,8 @@ export const newPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -1217,8 +1217,8 @@ export const oldPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -1359,8 +1359,8 @@ export const oldPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {
@@ -1505,8 +1505,8 @@ export const oldPrograms = [
         ]
       },
       {
-        sectionTitle: 'Кейсы выпускных работ: ',
-        sectionTag: 'Выпускные работы',
+        sectionTitle: 'Кейсы выпускных квалификационных работ: ',
+        sectionTag: 'Выпускные квалификационные работы',
         sectionDescription: '',
         sectionData: [
           {

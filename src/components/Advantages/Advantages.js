@@ -14,14 +14,14 @@ function Advantages() {
 
           <li className='advantages__item advantages__item_number_first'>
             <img className='advantages__icon' src={calendarIcon} alt=' '></img>
-            <h4 className='advantages__title font__family_macherie'>9-22 месяца</h4>
+            <h4 className='advantages__title font__family_macherie'>9-15 месяца</h4>
             <p className='advantages__subtitle'>срок обучения по&nbsp;дополнительным программам переподготовки ИТ-профиля</p>
           </li>
 
           <li className='advantages__item advantages__item_number_second'>
             <img className='advantages__icon' src={educationIcon} alt=' '></img>
             <h4 className='advantages__title font__family_macherie'>Вариативный формат обучения</h4>
-            <p className='advantages__subtitle'>проектные команды / онлайн и&nbsp;оффлайн форматы / практика в&nbsp;организациях реального сектора экономики / сетевое обучение с&nbsp;вузами консорциума</p>
+            <p className='advantages__subtitle'>проектные команды / онлайн и&nbsp;оффлайн форматы / практика в&nbsp;организациях реального сектора экономики</p>
           </li>
 
           <li className='advantages__item advantages__item_number_third'>

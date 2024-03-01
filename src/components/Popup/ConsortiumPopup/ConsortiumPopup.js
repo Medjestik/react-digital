@@ -36,21 +36,31 @@ function ConsortiumPopup({ isOpen, onClose, onOpenProgram }) {
           <h4 className='popup__subtitle'>Программы для реализации в 2023/2024 году: </h4>
           <ul className='popup__list'>
             <li className='popup__item'>
-              <button className='btn_type_view' onClick={() => onOpenProgram(newPrograms[6])}></button>
+              <button className='btn_type_view' onClick={() => onOpenProgram(newPrograms[0])}></button>
+              <p className='popup__list-text'>«Предиктивная аналитика в транспортных задачах».</p>
+            </li>
+            <li className='popup__item'>
+              <button className='btn_type_view' onClick={() => onOpenProgram(newPrograms[1])}></button>
+              <p className='popup__list-text'>«Технологии информационного моделирования в транспортном строительстве»;</p>
+            </li>
+            <li className='popup__item'>
+              <button className='btn_type_view' onClick={() => onOpenProgram(newPrograms[2])}></button>
               <p className='popup__list-text'>«1С-разработчик»;</p>
             </li>
             <li className='popup__item'>
               <button className='btn_type_view' onClick={() => onOpenProgram(newPrograms[3])}></button>
-              <p className='popup__list-text'>«Аналитик данных»;</p>
+              <p className='popup__list-text'>«Основы разработки и управления IT-проектами для транспорта и логистики»;</p>
             </li>
             <li className='popup__item'>
               <button className='btn_type_view' onClick={() => onOpenProgram(newPrograms[4])}></button>
-              <p className='popup__list-text'>«Технологии информационного моделирования в транспортном строительстве»;</p>
+              <p className='popup__list-text'>«Искусственный интеллект и машинное обучение»;</p>
             </li>
             <li className='popup__item'>
               <button className='btn_type_view' onClick={() => onOpenProgram(newPrograms[5])}></button>
-              <p className='popup__list-text'>«Предиктивная аналитика в транспортных задачах».</p>
+              <p className='popup__list-text'>«Аналитик данных»;</p>
             </li>
+
+
           </ul>
 
           <h4 className='popup__subtitle'>Участники консорциума: </h4>
@@ -78,6 +88,10 @@ function ConsortiumPopup({ isOpen, onClose, onOpenProgram }) {
             <li className='popup__item'>
               <a className='btn_type_link' target='_blank' rel='noreferrer' href='https://www.vavt.ru/'> </a>
               <p className='popup__list-text'>ФГБОУ ВО «ВАВТ Минэкономразвития России» </p>
+            </li>
+            <li className='popup__item'>
+              <a className='btn_type_link' target='_blank' rel='noreferrer' href='http://www.stu.ru/'> </a>
+              <p className='popup__list-text'>ФГБОУ ВО «Сибирский государственный университет путей сообщения» </p>
             </li>
           </ul>
           
